@@ -783,6 +783,18 @@ a.post-title:hover {
 	line-height: 1;
 	margin-bottom: 24px;
 }
+.overlay-dark {
+	background-color: rgba(black, 0.7);
+}
+
+.card-like-icon {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	font-size: 35px;
+	line-height: 1;
+	margin-bottom: 24px;
+}
 
 .pricing-plan-basic .pricing-plan-icon {
 	color: #5d78ff;
@@ -794,6 +806,10 @@ a.post-title:hover {
 
 .pricing-plan-enterprise .pricing-plan-icon {
 	color: #5d78ff;
+}
+
+.pricing-plan-enterprise .card-like-icon {
+	color: #F62459;
 }
 
 .pricing-plan-features {
@@ -856,12 +872,12 @@ a.post-title:hover {
 }
 
 .pricing-plan-enterprise .pricing-plan-purchase-btn {
-	background-color: #5d78ff;
+	background-color: #4699F7;
 	color: #fff;
 }
 
 .pricing-plan-enterprise .pricing-plan-purchase-btn:hover {
-	box-shadow: 0 3px 0 0 #1138ff;
+	box-shadow: 0 3px 0 0 #4699F7;
 }
 
 .pricing-plan-enterprise .pricing-plan-purchase-btn:active {
