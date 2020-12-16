@@ -841,6 +841,51 @@ a.post-title:hover {
 	justify-content: center;
 }
 
+.social-connection-btn {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	width: 145px;
+	height: 45px;
+	border-radius: 22.5px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+.facebook {
+	background-color: #4699F7;
+	color: #fff;
+}
+.instagram {
+	background-color: #000;
+	color: #fff;
+}
+
+.facebook:hover {
+	box-shadow: 0 3px 0 0 #000;
+}
+
+.instagram:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.certification {
+	margin-top: -20px;
+}
+
+.facebook:active {
+	-webkit-transform: translateY(3px);
+	transform: translateY(3px);
+	box-shadow: none;
+}
+
 .pricing-plan-basic .pricing-plan-purchase-btn {
 	background-color: #000;
 	color: #fff;
@@ -1300,3 +1345,4 @@ iframe {
 .form-logo {
     margin-bottom: 40px;
 }
+

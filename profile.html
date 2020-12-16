@@ -29,7 +29,8 @@
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
 </head>
 <body><!-- navigation -->
-    <header class="navigation"><div class="container">
+    <header class="navigation">
+      <div class="container">
     
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent"><a class="navbar-brand" href="dashbord.html">
             
@@ -67,19 +68,351 @@
             
             
           </div>
-        </nav></div>
+        </nav>
+
+        </div>
     </header>
 
 
-    <section class="section pb-0">
-        <div class="container text-center">
-          <h2>Your Profile</h2>
-        </div>
+    <div class="container light-style">
+      <div class="main-body">
+      
+            <div class="row gutters-sm">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-column align-items-center text-center">
 
-        
-      </section>
- 
+                      <a href="#" data-target="#modalIMG" data-toggle="modal">
+                        <div class="ba-0 ds-1">
+                          <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                        </div>	
+                      </a>
+
+                      </a>
+                      <div class="mt-3">
+                        <h4>John Doe</h4>
+                        <p class="text-secondary mb-1">Full Stack Developer</p>
+                        <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-3">
+                  <div class="list-group list-group-flush account-settings-links">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-info">Info</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Security</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-payment-methods">Payment Methods</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-certification">Certification</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-social-links">Social links</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-connections">Connections</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-notifications">Notifications</a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-terms-conditions">Terms & Conditions</a>
+                    
+                  </div>
+                  
+                </div>
+
+                <div class="card-body text-center col-md-12">
+                  <a class="btn social-connection-btn facebook " href="#"> Invite Friends</a>
+                </div>
+               
+              </div>
+
+              <div class="col-md-8">
+                <div class="card overflow-hidden">
+                  <div class="row no-gutters row-bordered row-border-light">
+                    <div class="col-md-12">
+                      <div class="tab-content">
+                        <div class="tab-pane fade active show" id="account-general">
+              
+                          <div class="card-body">
+                            <div class="form-group">
+                              <label class="form-label">Username</label>
+                              <input type="text" class="form-control mb-1" value="nmaxwell">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Name</label>
+                              <input type="text" class="form-control" value="Nelle Maxwell">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">E-mail</label>
+                              <input type="text" class="form-control mb-1" value="nmaxwell@mail.com">
+                              <div class="alert alert-warning mt-3">
+                                Your email is not confirmed. Please check your inbox.<br>
+                                <a href="javascript:void(0)">Resend confirmation</a>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Company</label>
+                              <input type="text" class="form-control" value="Company Ltd.">
+                            </div>
+                          </div>
+              
+                        </div>
+                        <div class="tab-pane fade" id="account-change-password">
+                          <div class="card-body ">
+              
+                            <div class="form-group">
+                              <label class="form-label">Current password</label>
+                              <input type="password" class="form-control">
+                            </div>
+              
+                            <div class="form-group">
+                              <label class="form-label">New password</label>
+                              <input type="password" class="form-control">
+                            </div>
+              
+                            <div class="form-group">
+                              <label class="form-label">Repeat new password</label>
+                              <input type="password" class="form-control">
+                            </div>
+              
+                          </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="account-certification">
+                          <section class="section">
     
+                            <div class="container pricing-container">
+                          <div class="row ">
+                            <div class="col-md-6">
+                              <div class="card pricing-card pricing-plan-enterprise certification">
+                                <div class="card-body">
+                                  <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
+                                  <h3 class="pricing-plan-title"><strong>Math 1</strong></h3>
+                                  <p class="pricing-plan-title">Certification</p>
+                                  
+                                  <ul class="pricing-plan-features">
+                                    <li>Unlimited conferences</li>
+                                    <li>100 participants max</li>
+                                    <li>Custom Hold Music</li>
+                                    <li>10 participants max</li>
+                                  </ul>
+                                  <a href="#!" class="btn pricing-plan-purchase-btn">View</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="card pricing-card pricing-plan-enterprise certification">
+                                <div class="card-body ">
+                                  <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
+                                  <h3 class="pricing-plan-title"><strong>English A1</strong></h3>
+                                  <p class="pricing-plan-title">Certification</p>
+                                  <ul class="pricing-plan-features">
+                                    <li>Unlimited conferences</li>
+                                    <li>100 participants max</li>
+                                    <li>Custom Hold Music</li>
+                                    <li>10 participants max</li>
+                                  </ul>
+                                  <a href="#!" class="btn pricing-plan-purchase-btn">View</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-info">
+                          <div class="card-body">
+              
+                            <div class="form-group">
+                              <label class="form-label">Bio</label>
+                              <textarea class="form-control" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc arcu, dignissim sit amet sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Birthday</label>
+                              <input type="text" class="form-control" value="May 3, 1995">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Country</label>
+                              <select class="custom-select">
+                                <option>USA</option>
+                                <option selected="">Canada</option>
+                                <option>UK</option>
+                                <option>Germany</option>
+                                <option>France</option>
+                              </select>
+                            </div>
+              
+              
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+              
+                            <h6 class="mb-4">Contacts</h6>
+                            <div class="form-group">
+                              <label class="form-label">Phone</label>
+                              <input type="text" class="form-control" value="+0 (123) 456 7891">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Website</label>
+                              <input type="text" class="form-control" value="">
+                            </div>
+              
+                          </div>
+                  
+                        </div>
+                        <div class="tab-pane fade" id="account-social-links">
+                          <div class="card-body">
+              
+                            <div class="form-group">
+                              <label class="form-label">Twitter</label>
+                              <input type="text" class="form-control" value="https://twitter.com/user">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Facebook</label>
+                              <input type="text" class="form-control" value="https://www.facebook.com/user">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Google+</label>
+                              <input type="text" class="form-control" value="">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">LinkedIn</label>
+                              <input type="text" class="form-control" value="">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Instagram</label>
+                              <input type="text" class="form-control" value="https://www.instagram.com/user">
+                            </div>
+              
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-connections">
+                          <div class="card-body">
+                            <button type="button" class="btn social-connection-btn facebook">Twitter</button>
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+                            <h5 class="mb-2">
+                              <a href="javascript:void(0)" class="float-right text-muted text-tiny"><i class="ion ion-md-close"></i> Remove</a>
+                              <i class="ion ion-logo-google text-google"></i>
+                              You are connected to Google:
+                            </h5>
+                            nmaxwell@mail.com
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+                            <a href="#!" class="btn social-connection-btn facebook">Facebook</a>
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+                            <a href="#" class="btn social-connection-btn instagram">Instagram</a>
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body">
+                            <a href="#" class="btn social-connection-btn facebook">LinkedIn</a>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="account-notifications">
+                          <div class="card-body pb-2">
+              
+                            <h6 class="mb-4">Activity</h6>
+              
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input" checked="">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">Email me when someone write me on messenger</span>
+                              </label>
+                            </div>
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input" checked="">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">Email me when someone answers on my forum thread</span>
+                              </label>
+                            </div>
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">Email me when something change in <strong>terms & conditions</strong></span>
+                              </label>
+                            </div>
+                          </div>
+                          <hr class="border-light m-0">
+                          <div class="card-body pb-2">
+              
+                            <h6 class="mb-4">Application</h6>
+              
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input" checked="">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">News and announcements</span>
+                              </label>
+                            </div>
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">Weekly product updates</span>
+                              </label>
+                            </div>
+                            <div class="form-group">
+                              <label class="switcher">
+                                <input type="checkbox" class="switcher-input" checked="">
+                                <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span>
+                                  <span class="switcher-no"></span>
+                                </span>
+                                <span class="switcher-label">Weekly blog digest</span>
+                              </label>
+                            </div>
+              
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            
+      
+          
+      </div>
+      
+    </div>
+
+  </div>
+
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body mb-0 p-0">
+          <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" style="width:100%">
+        </div>
+        <div class="modal-footer">
+          
+            <label id="upload-label" class="btn social-connection-btn facebook">Upload <input id="upload" type="file" onchange="readURL(this);" hidden></label>
+         
+          <button class="btn social-connection-btn instagram " data-dismiss="modal" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+              
 
     <script src="js/jQuery-jquery.min.js"></script><script src="js/bootstrap-bootstrap.min.js"></script><script src="js/slick-slick.min.js"></script>
 </body>
@@ -132,4 +465,11 @@
     <small class="content">Design and Develop by <a href="https://rezzytech.com/">RezzyTech</a></small>
   </div>
 </div>
-</footer><!-- JS Plugins --><script src="js/jQuery-jquery.min.js"></script><script src="js/bootstrap-bootstrap.min.js"></script><script src="js/slick-slick.min.js"></script><!-- Main Script --><script src="js/js-script.min.js"></script></body></html>
+</footer>
+<script src="js/jQuery-jquery.min.js"></script>
+<script src="js/bootstrap-bootstrap.min.js"></script>
+<script src="js/slick-slick.min.js"></script>
+<script src="js/js-script.min.js"></script>
+
+</body>
+</html>
