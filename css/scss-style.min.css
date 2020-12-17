@@ -5,6 +5,7 @@ PROJECT: Project Name
 -------------------------------------------------------------------*/
 
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap";
+
 body {
 	line-height: 1.2;
 	font-family: lato, sans-serif;
@@ -44,6 +45,7 @@ h1,
 }
 
 @media(max-width:767px) {
+
 	h1,
 	.h1 {
 		font-size: 40px
@@ -56,6 +58,7 @@ h2,
 }
 
 @media(max-width:767px) {
+
 	h2,
 	.h2 {
 		font-size: 30px
@@ -143,8 +146,8 @@ h6,
 .btn-primary:hover,
 .btn-primary.focus,
 .btn-primary.active {
-	background-color: #4699F7!important;
-	border-color: #4699F7!important
+	background-color: #4699F7 !important;
+	border-color: #4699F7 !important
 }
 
 .btn-outline-primary {
@@ -157,8 +160,8 @@ h6,
 .btn-outline-primary:hover,
 .btn-outline-primary.focus,
 .btn-outline-primary.active {
-	background-color: transparent!important;
-	border-color: #4699F7!important;
+	background-color: transparent !important;
+	border-color: #4699F7 !important;
 	color: #4699F7
 }
 
@@ -285,7 +288,7 @@ a:hover {
 }
 
 .border-default {
-	border-color: #ececec!important
+	border-color: #ececec !important
 }
 
 .overlay {
@@ -304,19 +307,19 @@ a:hover {
 }
 
 .bg-primary {
-	background-color: #4699F7!important
+	background-color: #4699F7 !important
 }
 
 .bg-light {
-	background-color: #D6E7F6!important
+	background-color: #D6E7F6 !important
 }
 
 .text-primary {
-	color: #4699F7!important
+	color: #4699F7 !important
 }
 
 .rounded-lg {
-	border-radius: 10px!important
+	border-radius: 10px !important
 }
 
 .shadow,
@@ -324,7 +327,7 @@ a:hover {
 .btn:hover,
 .btn:active,
 .btn:focus {
-	box-shadow: 0 12px 24px -6px rgba(45, 67, 121, .1)!important
+	box-shadow: 0 12px 24px -6px rgba(45, 67, 121, .1) !important
 }
 
 .form-control:focus {
@@ -338,7 +341,7 @@ a:hover {
 }
 
 textarea.form-control {
-	height: 100px!important
+	height: 100px !important
 }
 
 .list-unstyled li {
@@ -622,7 +625,7 @@ a.post-title:hover {
 }
 
 .content blockquote {
-	font-size: 20px!important;
+	font-size: 20px !important;
 	color: #777;
 	padding: 20px 40px;
 	border-left: 2px solid #4699F7;
@@ -632,7 +635,7 @@ a.post-title:hover {
 }
 
 .content blockquote p {
-	margin-bottom: 0!important
+	margin-bottom: 0 !important
 }
 
 .content pre {
@@ -643,7 +646,7 @@ a.post-title:hover {
 }
 
 .content code {
-	margin-bottom: 0!important;
+	margin-bottom: 0 !important;
 	font-size: 100%
 }
 
@@ -788,6 +791,7 @@ a.post-title:hover {
 	line-height: 1;
 	margin-bottom: 24px;
 }
+
 .overlay-dark {
 	background-color: rgba(black, 0.7);
 }
@@ -863,10 +867,12 @@ a.post-title:hover {
 	-webkit-box-pack: center;
 	justify-content: center;
 }
+
 .facebook {
 	background-color: #4699F7;
 	color: #fff;
 }
+
 .instagram {
 	background-color: #000;
 	color: #fff;
@@ -877,7 +883,7 @@ a.post-title:hover {
 	color: #fff
 }
 
-.instagram:hover{
+.instagram:hover {
 	box-shadow: 0 3px 0 0 #000;
 	color: #fff;
 }
@@ -891,6 +897,7 @@ a.post-title:hover {
 	transform: translateY(3px);
 	box-shadow: none;
 }
+
 .instagram:active {
 	-webkit-transform: translateY(3px);
 	transform: translateY(3px);
@@ -980,7 +987,7 @@ textarea {
 
 textarea:focus,
 input:focus {
-	border-color: transparent!important
+	border-color: transparent !important
 }
 
 input:focus::-webkit-input-placeholder {
@@ -1048,7 +1055,7 @@ textarea:-ms-input-placeholder {
 }
 
 button {
-	outline: none!important;
+	outline: none !important;
 	border: none;
 	background: 0 0
 }
@@ -1058,7 +1065,7 @@ button:hover {
 }
 
 iframe {
-	border: none!important
+	border: none !important
 }
 
 .txt1 {
@@ -1354,6 +1361,5 @@ iframe {
 }
 
 .form-logo {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
-
