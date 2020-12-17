@@ -269,6 +269,11 @@ a:hover {
 	padding-bottom: 70px
 }
 
+.section-terms {
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
 .section-title {
 	margin-bottom: 30px
 }
@@ -869,11 +874,12 @@ a.post-title:hover {
 
 .facebook:hover {
 	box-shadow: 0 3px 0 0 #000;
+	color: #fff
 }
 
 .instagram:hover{
-	background-color: #fff;
-	color: #000;
+	box-shadow: 0 3px 0 0 #000;
+	color: #fff;
 }
 
 .certification {
@@ -881,6 +887,11 @@ a.post-title:hover {
 }
 
 .facebook:active {
+	-webkit-transform: translateY(3px);
+	transform: translateY(3px);
+	box-shadow: none;
+}
+.instagram:active {
 	-webkit-transform: translateY(3px);
 	transform: translateY(3px);
 	box-shadow: none;

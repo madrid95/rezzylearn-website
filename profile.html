@@ -1,475 +1,418 @@
 <!DOCTYPE html>
-<html lang="en-us"><head><meta charset="utf-8">
-  <title>RezzyLearn</title><!-- mobile responsive meta --><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <meta charset="utf-8">
-  <title>RezzyLearn</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en-us">
 
-  
-  <link rel="icon" type="image/png" href="images/favicon-32x32.svg">
-  
-  <meta name="description" content="RezzyLearn - new way of Learning." />
-  
-  <meta property="og:title" content="RezzyLearn SignIn" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://learn.rezzytech.com" />
-  <meta property="og:image" content="" />
-  <meta property="og:description" content="RezzyLearn - new way of Learning." />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="" />
-  <meta name="twitter:creator" content="" />
-  <meta name="description" content="RezzyLearn - new way of Learning.">
-  <link rel="stylesheet" href="css/bootstrap-bootstrap.min.css">
-  <link rel="stylesheet" href="css/themify-icons-themify-icons.css">
-  <link rel="stylesheet" href="css/slick-slick.css">
-  <link href="css/scss-style.min.css" rel="stylesheet" media="screen">
-  <meta property="og:title" content="RezzyLearn"><meta property="og:description" content="This is meta description">
-  <meta property="og:type" content="website"><meta property="og:updated_time" content="2020-04-18T10:07:21+06:00">
-  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-</head>
-<body><!-- navigation -->
-    <header class="navigation">
-      <div class="container">
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent"><a class="navbar-brand" href="dashbord.html">
-            
-            <img width="200px" class="img-fluid" src="images/logo.jpg" alt="RezzyLearn"></a>
-            
-          <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-            <i class="ti-menu h3"></i>
-          </button>
-    
-          <div class="collapse navbar-collapse text-center" id="navigation">
-            <ul class="navbar-nav mx-auto"><li class="nav-item">
-                <a class="nav-link" href="dashbord.html">Home</a>
-              </li>
-              
-              
-              
-              <li class="nav-item">
-                <a class="nav-link" href="course.html">Course</a>
-              </li>
-              
-              
-              
-              <li class="nav-item">
-                <a class="nav-link" href="favorite.html">Favorite</a>
-              </li>
-              
-              
-              
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-              
-              
-            </ul><a href="index.html" class="btn btn-sm btn-primary ml-3">Log Out</a>
-            
-            
-          </div>
-        </nav>
+<head>
+	<meta charset="utf-8">
+	<title>RezzyLearn</title>
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+	<title>RezzyLearn</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/png" href="images/favicon-32x32.svg">
+	<meta name="description" content="RezzyLearn - new way of Learning." />
+	<meta property="og:title" content="RezzyLearn SignIn" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://learn.rezzytech.com" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content="RezzyLearn - new way of Learning." />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="" />
+	<meta name="twitter:creator" content="" />
+	<meta name="description" content="RezzyLearn - new way of Learning.">
+	<link rel="stylesheet" href="css/bootstrap-bootstrap.min.css">
+	<link rel="stylesheet" href="css/themify-icons-themify-icons.css">
+	<link rel="stylesheet" href="css/slick-slick.css">
+	<link rel="stylesheet" href="css/payment.css">
+	<link href="css/scss-style.min.css" rel="stylesheet" media="screen">
+	<meta property="og:title" content="RezzyLearn">
+	<meta property="og:description" content="This is meta description">
+	<meta property="og:type" content="website">
+	<meta property="og:updated_time" content="2020-04-18T10:07:21+06:00">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css"> </head>
 
-        </div>
-    </header>
-
-
-    <div class="container light-style">
-      <div class="main-body">
-      
-            <div class="row gutters-sm">
-              <div class="col-md-4 mb-3">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="d-flex flex-column align-items-center text-center">
-
-                      <a href="#" data-target="#modalIMG" data-toggle="modal">
-                        <div class="ba-0 ds-1">
-                          <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
-                        </div>	
-                      </a>
-
-                      </a>
-                      <div class="mt-3">
-                        <h4>John Doe</h4>
-                        <p class="text-secondary mb-1">Full Stack Developer</p>
-                        <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card mt-3">
-                  <div class="list-group list-group-flush account-settings-links">
-                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-info">Info</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Security</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-payment-methods">Payment Methods</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-certification">Certification</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-social-links">Social links</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-connections">Connections</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-notifications">Notifications</a>
-                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-terms-conditions">Terms & Conditions</a>
-                    
-                  </div>
-                  
-                </div>
-
-                <div class="card-body text-center col-md-12">
-                  <a class="btn social-connection-btn facebook " href="#"> Invite Friends</a>
-                </div>
-               
-              </div>
-
-              <div class="col-md-8">
-                <div class="card overflow-hidden">
-                  <div class="row no-gutters row-bordered row-border-light">
-                    <div class="col-md-12">
-                      <div class="tab-content">
-                        <div class="tab-pane fade active show" id="account-general">
-              
-                          <div class="card-body">
-                            <div class="form-group">
-                              <label class="form-label">Username</label>
-                              <input type="text" class="form-control mb-1" value="nmaxwell">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Name</label>
-                              <input type="text" class="form-control" value="Nelle Maxwell">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">E-mail</label>
-                              <input type="text" class="form-control mb-1" value="nmaxwell@mail.com">
-                              <div class="alert alert-warning mt-3">
-                                Your email is not confirmed. Please check your inbox.<br>
-                                <a href="javascript:void(0)">Resend confirmation</a>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Company</label>
-                              <input type="text" class="form-control" value="Company Ltd.">
-                            </div>
+<body>
+	<!-- navigation -->
+	<header class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				<a class="navbar-brand" href="dashbord.html"> <img width="200px" class="img-fluid" src="images/logo.jpg" alt="RezzyLearn"></a>
+				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"> <i class="ti-menu h3"></i> </button>
+				<div class="collapse navbar-collapse text-center" id="navigation">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item"> <a class="nav-link" href="dashbord.html">Home</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="course.html">Course</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="favorite.html">Favorite</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="profile.html">Profile</a> </li>
+					</ul><a href="index.html" class="btn btn-sm btn-primary ml-3">Log Out</a> </div>
+			</nav>
+		</div>
+	</header>
+	<div class="container light-style">
+		<div class="main-body">
+			<div class="row gutters-sm">
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<div class="card-body">
+							<div class="d-flex flex-column align-items-center text-center">
+								<a href="#" data-target="#modalIMG" data-toggle="modal">
+									<div class="ba-0 ds-1"> <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150"> </div>
+								</a>
+								</a>
+								<div class="mt-3">
+									<h4>John Doe</h4>
+									<p class="text-secondary mb-1">Full Stack Developer</p>
+									<p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mt-3">
+						<div class="list-group list-group-flush account-settings-links"> <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-info">Info</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Security</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-payment-methods">Payment Methods</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-certification">Certification</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-social-links">Social links</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-connections">Connections</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-notifications">Notifications</a> <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-terms-conditions">Terms & Conditions</a> </div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="card overflow-hidden">
+						<div class="row no-gutters row-bordered row-border-light">
+							<div class="col-md-12">
+								<div class="tab-content">
+									<div class="tab-pane fade active show" id="account-general">
+										<div class="card-body">
+											<div class="form-group">
+												<label class="form-label">Username</label>
+												<input type="text" class="form-control mb-1" value="nmaxwell"> </div>
+											<div class="form-group">
+												<label class="form-label">Name</label>
+												<input type="text" class="form-control" value="Nelle Maxwell"> </div>
+											<div class="form-group">
+												<label class="form-label">E-mail</label>
+												<input type="text" class="form-control mb-1" value="nmaxwell@mail.com">
+												<div class="alert alert-warning mt-3"> Your email is not confirmed. Please check your inbox.
+													<br> <a href="javascript:void(0)">Resend confirmation</a> </div>
+											</div>
+											<div class="form-group">
+												<label class="form-label">Company</label>
+												<input type="text" class="form-control" value="Company Ltd."> </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-change-password">
+										<div class="card-body ">
+											<div class="form-group">
+												<label class="form-label">Current password</label>
+												<input type="password" class="form-control"> </div>
+											<div class="form-group">
+												<label class="form-label">New password</label>
+												<input type="password" class="form-control"> </div>
+											<div class="form-group">
+												<label class="form-label">Repeat new password</label>
+												<input type="password" class="form-control"> </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-payment-methods">
+										<div class="card-body">
+											<div class="form-group"> <span id="card-header">Saved cards:</span>
+												<div class="card-body">
+													<h5 class="mb-2">
+                                      <a href="javascript:void(0)" class="float-right text-muted text-tiny"> Remove card</a>
+                                      
+                                    </h5>
+													<input type="text" placeholder="**** **** **** 3193"> </div>
+												<hr class="border-light m-0">
+												<div class="card-body">
+													<h5 class="mb-2">
+                                      <a href="javascript:void(0)" class="float-right text-muted text-tiny"> Remove card</a>
+                                      
+                                    </h5>
+													<input type="text" placeholder="**** **** **** 3125"> </div>
+												<section class="section-terms">
+													<div class="container align-items-center"> 
+                            <a href="#" class="col-md-12 btn social-connection-btn facebook" data-target="#modalPayment" data-toggle="modal">Add card</a> 
                           </div>
-              
-                        </div>
-                        <div class="tab-pane fade" id="account-change-password">
-                          <div class="card-body ">
-              
-                            <div class="form-group">
-                              <label class="form-label">Current password</label>
-                              <input type="password" class="form-control">
-                            </div>
-              
-                            <div class="form-group">
-                              <label class="form-label">New password</label>
-                              <input type="password" class="form-control">
-                            </div>
-              
-                            <div class="form-group">
-                              <label class="form-label">Repeat new password</label>
-                              <input type="password" class="form-control">
-                            </div>
-              
-                          </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="account-certification">
-                          <section class="section">
-    
-                            <div class="container pricing-container">
-                          <div class="row ">
-                            <div class="col-md-6">
-                              <div class="card pricing-card pricing-plan-enterprise certification">
-                                <div class="card-body">
-                                  <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
-                                  <h3 class="pricing-plan-title"><strong>Math 1</strong></h3>
-                                  <p class="pricing-plan-title">Certification</p>
-                                  
-                                  <ul class="pricing-plan-features">
-                                    <li>Unlimited conferences</li>
-                                    <li>100 participants max</li>
-                                    <li>Custom Hold Music</li>
-                                    <li>10 participants max</li>
-                                  </ul>
-                                  <a href="#!" class="btn pricing-plan-purchase-btn">View</a>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="col-md-6">
-                              <div class="card pricing-card pricing-plan-enterprise certification">
-                                <div class="card-body ">
-                                  <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
-                                  <h3 class="pricing-plan-title"><strong>English A1</strong></h3>
-                                  <p class="pricing-plan-title">Certification</p>
-                                  <ul class="pricing-plan-features">
-                                    <li>Unlimited conferences</li>
-                                    <li>100 participants max</li>
-                                    <li>Custom Hold Music</li>
-                                    <li>10 participants max</li>
-                                  </ul>
-                                  <a href="#!" class="btn pricing-plan-purchase-btn">View</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-info">
-                          <div class="card-body">
-              
-                            <div class="form-group">
-                              <label class="form-label">Bio</label>
-                              <textarea class="form-control" rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc arcu, dignissim sit amet sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Birthday</label>
-                              <input type="text" class="form-control" value="May 3, 1995">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Country</label>
-                              <select class="custom-select">
-                                <option>USA</option>
-                                <option selected="">Canada</option>
-                                <option>UK</option>
-                                <option>Germany</option>
-                                <option>France</option>
-                              </select>
-                            </div>
-              
-              
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body">
-              
-                            <h6 class="mb-4">Contacts</h6>
-                            <div class="form-group">
-                              <label class="form-label">Phone</label>
-                              <input type="text" class="form-control" value="+0 (123) 456 7891">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Website</label>
-                              <input type="text" class="form-control" value="">
-                            </div>
-              
-                          </div>
-                  
-                        </div>
-                        <div class="tab-pane fade" id="account-social-links">
-                          <div class="card-body">
-              
-                            <div class="form-group">
-                              <label class="form-label">Twitter</label>
-                              <input type="text" class="form-control" value="https://twitter.com/user">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Facebook</label>
-                              <input type="text" class="form-control" value="https://www.facebook.com/user">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Google+</label>
-                              <input type="text" class="form-control" value="">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">LinkedIn</label>
-                              <input type="text" class="form-control" value="">
-                            </div>
-                            <div class="form-group">
-                              <label class="form-label">Instagram</label>
-                              <input type="text" class="form-control" value="https://www.instagram.com/user">
-                            </div>
-              
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-connections">
-                          <div class="card-body">
-                            <button type="button" class="btn social-connection-btn facebook">Twitter</button>
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body">
-                            <h5 class="mb-2">
+												</section>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-terms-conditions">
+										<div class="card-body ">
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Terms of Use</h4> These Terms and Conditions constitute an agreement (“Agreement”) between you (“you”, “your”, “user”, “Customer”) and the Company.Avocado gumbo artichoke ricebean groundnut tigernut. Daikon kakadu plum water spinach garbanzo eggplant fava bean chard rock melon carrot rutabaga water chestnut broccoli courgette onion. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Eligibility and Identity.</h4> To be eligible to use our Services, you must be at least 13 years old. Sorrel jícama tomato silver beet wattle seed black-eyed pea garlic fennel tigernut okra beetroot shallot. Soko shallot melon dandelion bamboo shoot chickpea soybean pumpkin kakadu plum parsley ricebean grape courgette courgette jícama tatsoi. Black-eyed pea gourd tomatillo arugula cucumber celery mustard black-eyed pea cauliflower soybean rutabaga turnip groundnut. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Termination</h4> You may terminate this Agreement at any time by ceasing all use of the Services and by notifying us. The Company may terminate this Agreement, at any time, without notice to you, if it believes, in its sole judgment, that you have breached or may breach any term or condition of this Agreement. Fennel garlic melon broccoli kohlrabi dulse black-eyed pea chicory watercress shallot bamboo shoot cucumber rutabaga ricebean gourd chickweed gumbo. Burdock fennel sorrel cress collard greens tomato tigernut salad chickweed yarrow water spinach catsear earthnut pea cabbage dulse potato. Onion courgette bitterleaf rutabaga tomatillo tigernut groundnut courgette water spinach tomato. Celery ricebean cabbage salsify caulie watercress cress collard greens potato chard gourd pea sprouts cucumber dulse gram. Leek summer purslane tatsoi catsear celtuce broccoli rabe onion zucchini. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Use of Services & Account</h4> You represent and warrant that you possess the legal right and ability to enter into this Agreement. You agree not to use the Materials, Content, Services, and your Account for any unlawful or abusive purpose or in any way which interferes with our ability to provide Services to our customers, or which damages our property.Chickpea gourd coriander daikon zucchini lettuce tomatillo sierra leone bologi maize parsnip grape melon kohlrabi welsh onion. Celery wakame corn garlic courgette silver beet cabbage gram amaranth jícama bitterleaf. Ricebean bunya nuts prairie turnip water chestnut artichoke cauliflower watercress gourd cabbage okra broccoli rabe. Burdock leek sorrel radicchio azuki bean collard greens winter purslane broccoli rabe gourd water chestnut pumpkin gumbo. Azuki bean green bean kohlrabi kombu aubergine salsify lotus root turnip lentil radicchio nori eggplant sorrel. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Modification to Service</h4> The Company may change, suspend, or discontinue all or any part of the Service at any time, with or without reason. You acknowledge that the operation of the Service may from time to time encounter technical or other problems and may not necessarily continue uninterrupted or without technical or other errors and The Company shall not be responsible to you or others for any such interruptions, errors or problems or an outright discontinuance of the Service. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Intellectual Property Ownership</h4> All Materials, Services, Accounts, and content, including, but not limited to, policy information, text, software, music, sound, photographs, video, graphics, the arrangement of text and images, commercially produced information, and other material contained on the Site or through the Services (“Content”), are provided by The Company unless indicated otherwise. Welsh onion tigernut broccoli asparagus brussels sprout jícama eggplant earthnut pea cress chickpea gourd zucchini. Radicchio lentil cucumber groundnut endive kohlrabi winter purslane. Seakale plantain quandong celtuce shallot fennel seakale epazote groundnut dandelion. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">Privacy</h4> Please see our <a href="privacy-policy.html">Privacy Policy</a> as set forth on the site. </section>
+											<section class=" section-terms container pricing-container">
+												<h4 class="pricing-plan-title">About These Terms</h4>
+												<p>These Terms and Conditions are just a sample and are not legally binding. Real Terms of Services do not (usually) contain vegetables...</p>
+											</section>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-certification">
+										<section class="section">
+											<div class="container pricing-container">
+												<div class="row ">
+													<div class="col-md-6">
+														<div class="card pricing-card pricing-plan-enterprise certification">
+															<div class="card-body"> <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
+																<h3 class="pricing-plan-title"><strong>Math 1</strong></h3>
+																<p class="pricing-plan-title">Certification</p>
+																<ul class="pricing-plan-features">
+																	<li>Unlimited conferences</li>
+																	<li>100 participants max</li>
+																	<li>Custom Hold Music</li>
+																	<li>10 participants max</li>
+																</ul> <a href="#!" class="btn pricing-plan-purchase-btn">View</a> </div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="card pricing-card pricing-plan-enterprise certification">
+															<div class="card-body "> <i class="mdi mdi-trophy-award pricing-plan-icon"></i>
+																<h3 class="pricing-plan-title"><strong>English A1</strong></h3>
+																<p class="pricing-plan-title">Certification</p>
+																<ul class="pricing-plan-features">
+																	<li>Unlimited conferences</li>
+																	<li>100 participants max</li>
+																	<li>Custom Hold Music</li>
+																	<li>10 participants max</li>
+																</ul> <a href="#!" class="btn pricing-plan-purchase-btn">View</a> </div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div>
+									<div class="tab-pane fade" id="account-info">
+										<div class="card-body">
+											<div class="form-group">
+												<label class="form-label">About</label>
+												<textarea class="form-control" rows="5"> sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
+											</div>
+											<div class="form-group">
+												<label class="form-label">Birthday</label>
+												<input type="date" class="form-control" value="May 3, 1995"> </div>
+											<div class="form-group">
+												<label class="form-label">Country</label>
+												<select class="custom-select">
+													<option>USA</option>
+													<option selected="">Canada</option>
+													<option>UK</option>
+													<option>Germany</option>
+													<option>France</option>
+												</select>
+											</div>
+										</div>
+										<hr class="border-light m-0">
+										<div class="card-body">
+											<h6 class="mb-4">Contacts</h6>
+											<div class="form-group">
+												<label class="form-label">Phone</label>
+												<input type="tel" class="form-control" value="+0 (123) 456 7891"> </div>
+											<div class="form-group">
+												<label class="form-label">Website</label>
+												<input type="text" class="form-control" value=""> </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-social-links">
+										<div class="card-body">
+											<div class="form-group">
+												<label class="form-label">Twitter</label>
+												<input type="text" class="form-control" value="https://twitter.com/user"> </div>
+											<div class="form-group">
+												<label class="form-label">Facebook</label>
+												<input type="text" class="form-control" value="https://www.facebook.com/user"> </div>
+											<div class="form-group">
+												<label class="form-label">Google+</label>
+												<input type="text" class="form-control" value=""> </div>
+											<div class="form-group">
+												<label class="form-label">LinkedIn</label>
+												<input type="text" class="form-control" value=""> </div>
+											<div class="form-group">
+												<label class="form-label">Instagram</label>
+												<input type="text" class="form-control" value="https://www.instagram.com/user"> </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="account-connections">
+										<div class="card-body">
+											<button type="button" class="btn social-connection-btn facebook">Twitter</button>
+										</div>
+										<hr class="border-light m-0">
+										<div class="card-body">
+											<h5 class="mb-2">
                               <a href="javascript:void(0)" class="float-right text-muted text-tiny"><i class="ion ion-md-close"></i> Remove</a>
                               <i class="ion ion-logo-google text-google"></i>
                               You are connected to Google:
-                            </h5>
-                            nmaxwell@mail.com
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body">
-                            <a href="#!" class="btn social-connection-btn facebook">Facebook</a>
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body">
-                            <a href="#" class="btn social-connection-btn instagram">Instagram</a>
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body">
-                            <a href="#" class="btn social-connection-btn facebook">LinkedIn</a>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-notifications">
-                          <div class="card-body pb-2">
-              
-                            <h6 class="mb-4">Activity</h6>
-              
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input" checked="">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">Email me when someone write me on messenger</span>
-                              </label>
-                            </div>
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input" checked="">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">Email me when someone answers on my forum thread</span>
-                              </label>
-                            </div>
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">Email me when something change in <strong>terms & conditions</strong></span>
-                              </label>
-                            </div>
-                          </div>
-                          <hr class="border-light m-0">
-                          <div class="card-body pb-2">
-              
-                            <h6 class="mb-4">Application</h6>
-              
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input" checked="">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">News and announcements</span>
-                              </label>
-                            </div>
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">Weekly product updates</span>
-                              </label>
-                            </div>
-                            <div class="form-group">
-                              <label class="switcher">
-                                <input type="checkbox" class="switcher-input" checked="">
-                                <span class="switcher-indicator">
-                                  <span class="switcher-yes"></span>
-                                  <span class="switcher-no"></span>
-                                </span>
-                                <span class="switcher-label">Weekly blog digest</span>
-                              </label>
-                            </div>
-              
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                            </h5> nmaxwell@mail.com </div>
+										<hr class="border-light m-0">
+										<div class="card-body"> <a href="#!" class="btn social-connection-btn facebook">Facebook</a> </div>
+										<hr class="border-light m-0">
+										<div class="card-body"> <a href="#" class="btn social-connection-btn instagram">Instagram</a> </div>
+										<hr class="border-light m-0">
+										<div class="card-body"> <a href="#" class="btn social-connection-btn facebook">LinkedIn</a> </div>
+									</div>
+									<div class="tab-pane fade" id="account-notifications">
+										<div class="card-body pb-2">
+											<h6 class="mb-4">Activity</h6>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">Email me when someone write me on messenger</span> </label>
+											</div>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">Email me when someone answers on my forum thread</span> </label>
+											</div>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">Email me when something change in <strong>terms & conditions</strong></span> </label>
+											</div>
+										</div>
+										<hr class="border-light m-0">
+										<div class="card-body pb-2">
+											<h6 class="mb-4">Application</h6>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">News and announcements</span> </label>
+											</div>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">Weekly product updates</span> </label>
+											</div>
+											<div class="form-group">
+												<label class="switcher">
+													<input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
+                                  <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span class="switcher-label">Weekly blog digest</span> </label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-body"> <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" style="width:100%"> </div>
+				<div class="modal-footer">
+					<label id="upload-label" class="btn social-connection-btn facebook">Upload
+						<input id="upload" type="file" onchange="readURL(this);" hidden>
+					</label>
+					<button class="btn social-connection-btn instagram " data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalPayment" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body p-5 shadow rounded-lg">
+					<div class=" section-terms container">
+            <form role="form">
+              <div class="form-group">
+                <label for="username">
+                  <h6>Card Owner</h6> </label>
+                <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+              <div class="form-group">
+                <label for="cardNumber">
+                  <h6>Card number</h6> </label>
+                <div class="input-group">
+                  <input type="text" name="cardNumber" placeholder="Valid card number" class="form-control " required>
+                  <div class="input-group-append"> <span class="input-group-text text-muted"> <i class="fab fa-cc-visa mx-1"></i> <i class="fab fa-cc-mastercard mx-1"></i> <i class="fab fa-cc-amex mx-1"></i> </span> </div>
+                </div>
               </div>
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="form-group">
+                    <label><span class="hidden-xs">
+                                                  <h6>Expiration Date</h6>
+                                              </span></label>
+                    <div class="input-group">
+                      <input type="number" placeholder="MM" name="" class="form-control" required>
+                      <input type="number" placeholder="YY" name="" class="form-control" required> </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group mb-4">
+                    <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                      <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6> </label>
+                    <input type="text" required class="form-control"> </div>
+                </div>
+              </div>
+            </form>
+							
+							
             </div>
-
-            
-      
-          
-      </div>
-      
-    </div>
-
-  </div>
-
-  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body mb-0 p-0">
-          <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" style="width:100%">
-        </div>
-        <div class="modal-footer">
-          
-            <label id="upload-label" class="btn social-connection-btn facebook">Upload <input id="upload" type="file" onchange="readURL(this);" hidden></label>
-         
-          <button class="btn social-connection-btn instagram " data-dismiss="modal" type="button">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-              
-
-    <script src="js/jQuery-jquery.min.js"></script><script src="js/bootstrap-bootstrap.min.js"></script><script src="js/slick-slick.min.js"></script>
+            <div class="modal-footer">
+              <button class="btn social-connection-btn facebook " data-dismiss="modal" type="button">Add</button>
+              <button class="btn social-connection-btn instagram " data-dismiss="modal" type="button">Close</button>
+            </div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jQuery-jquery.min.js"></script>
+	<script src="js/bootstrap-bootstrap.min.js"></script>
+	<script src="js/slick-slick.min.js"></script>
 </body>
-
-
-<footer class="bg-light section pb-0"><div class="container">
-  <div class="row">
-    <div class="col-md-3 col-sm-6 mb-5">
-      <h3 class="mb-4">Company</h3>
-      <ul class="list-unstyled footer-list"><li><a href="index.html">About Us</a></li>
-        
-        <li><a href="pricing.html">Pricing</a></li>
-        
-        <li><a href="index.html">Quick Start</a></li>
-        
-      </ul></div>
-    <div class="col-md-3 col-sm-6 mb-5">
-      <h3 class="mb-4">Product</h3>
-      <ul class="list-unstyled footer-list"><li><a href="index.html">Features</a></li>
-        
-        <li><a href="index.html">Platform</a></li>
-        
-        <li><a href="pricing.html">Pricing</a></li>
-        
-      </ul></div>
-    <div class="col-md-3 col-sm-6 mb-5">
-      <h3 class="mb-4">Support</h3>
-      <ul class="list-unstyled footer-list"><li><a href="faq.html">FAQ</a></li>
-        
-        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-        
-        <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
-        
-      </ul></div>
-    <div class="col-md-3 col-sm-6 mb-5">
-      <a class="d-block mb-3" href="index.html"><img width="200px" class="img-fluid" src="images/logo.jpg" alt="RezzyLearn"></a>
-      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
-      
-      <ul class="list-inline social-icons"><li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-skype"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
-        
-      </ul></div>
-  </div>
-  <div class="border-top border-default text-center py-4 mt-4">
-    <small class="content">Design and Develop by <a href="https://rezzytech.com/">RezzyTech</a></small>
-  </div>
-</div>
+<footer class="bg-light section pb-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 mb-5">
+				<h3 class="mb-4">Company</h3>
+				<ul class="list-unstyled footer-list">
+					<li><a href="index.html">About Us</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="index.html">Quick Start</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 mb-5">
+				<h3 class="mb-4">Product</h3>
+				<ul class="list-unstyled footer-list">
+					<li><a href="index.html">Features</a></li>
+					<li><a href="index.html">Platform</a></li>
+					<li><a href="pricing.html">Pricing</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 mb-5">
+				<h3 class="mb-4">Support</h3>
+				<ul class="list-unstyled footer-list">
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="privacy-policy.html">Privacy Policy</a></li>
+					<li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-sm-6 mb-5">
+				<a class="d-block mb-3" href="index.html"><img width="200px" class="img-fluid" src="images/logo.jpg" alt="RezzyLearn"></a>
+				<p class="mb-4">Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.</p>
+				<ul class="list-inline social-icons">
+					<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="ti-skype"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="border-top border-default text-center py-4 mt-4"> <small class="content">Design and Develop by <a href="https://rezzytech.com/">RezzyTech</a></small> </div>
+	</div>
 </footer>
 <script src="js/jQuery-jquery.min.js"></script>
 <script src="js/bootstrap-bootstrap.min.js"></script>
 <script src="js/slick-slick.min.js"></script>
 <script src="js/js-script.min.js"></script>
-
 </body>
+
 </html>
