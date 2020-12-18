@@ -809,6 +809,15 @@ a.post-title:hover {
 	margin-bottom: 24px;
 }
 
+.search-icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	font-size: 27px;
+	line-height: 1;
+	color: #4699F7;
+}
+
 .check-icon {
 	display: inline-block;
 	width: 15px;
@@ -847,15 +856,15 @@ a.post-title:hover {
 }
 
 .pricing-plan-basic .pricing-plan-icon {
-	color: #5d78ff;
+	color: #4699F7;
 }
 
 .pricing-plan-pro .pricing-plan-icon {
-	color: #5d78ff;
+	color: #4699F7;
 }
 
 .pricing-plan-enterprise .pricing-plan-icon {
-	color: #5d78ff;
+	color: #4699F7;
 }
 
 .pricing-plan-enterprise .card-like-icon {
