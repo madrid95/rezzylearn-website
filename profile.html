@@ -110,7 +110,16 @@
                       </div>
                       <div class="form-group">
                         <label class="form-label">Company</label>
-                        <input type="text" class="form-control" value="Company Ltd."> </div>
+                        <input type="text" class="form-control" value="Company Ltd."> 
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Position</label>
+                        <input type="text" class="form-control" value="Full Stack Developer"> 
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label">Goal</label>
+                        <input type="text" class="form-control" value="Learning to be an expert as Full Stack Developer."> 
+                      </div>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="account-change-password">
@@ -154,7 +163,7 @@
                     </div>
                   </div>
                   <div class="tab-pane fade" id="account-terms-conditions">
-                    <div class="card-body ">
+                    <div class="card-body pb-2">
                       <section class=" section-terms container pricing-container">
                         <h4 class="pricing-plan-title">Terms of Use</h4> These Terms and Conditions constitute an
                         agreement (“Agreement”) between you (“you”, “your”, “user”, “Customer”) and the Company.Avocado
@@ -263,8 +272,11 @@
                     <div class="card-body">
                       <div class="form-group">
                         <label class="form-label">About</label>
-                        <textarea class="form-control"
-                          rows="5"> sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
+                        <textarea
+                          class="form-control"
+                          rowa="5"
+                          placeholder="Write something about yourself."
+                          >sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
                       </div>
                       <div class="form-group">
                         <label class="form-label">Birthday</label>
@@ -332,47 +344,68 @@
                   </div>
                   <div class="tab-pane fade" id="account-notifications">
                     <div class="card-body pb-2">
-                      <h6 class="mb-4">Activity</h6>
+                      <h6 class="mb-4">Push Notification Settings</h6>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">Email me when someone write me on messenger</span> </label>
+                            class="switcher-label">Account Activity</span> </label>
                       </div>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">Email me when someone answers on my forum thread</span> </label>
+                            class="switcher-label">Messages</span> </label>
                       </div>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">Email me when something change in <strong>terms &
-                              conditions</strong></span> </label>
+                            class="switcher-label">Feature Updates</span> </label>
+                      </div>
+                      <div class="form-group">
+                        <label class="switcher">
+                          <input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
+                            <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
+                            class="switcher-label">Course Recommendations</span> </label>
                       </div>
                     </div>
                     <hr class="border-light m-0">
                     <div class="card-body pb-2">
-                      <h6 class="mb-4">Application</h6>
+                      <h6 class="mb-4">Text Message Settings</h6>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">News and announcements</span> </label>
+                            class="switcher-label">Messages</span> </label>
                       </div>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">Weekly product updates</span> </label>
+                            class="switcher-label">Feature Updates and More</span> </label>
+                      </div>
+                    </div>
+                    <hr class="border-light m-0">
+                    <div class="card-body pb-2">
+                      <h6 class="mb-4">Email Settings</h6>
+                      <div class="form-group">
+                        <label class="switcher">
+                          <input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
+                            <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
+                            class="switcher-label">Messages</span> </label>
+                      </div>
+                      <div class="form-group">
+                        <label class="switcher">
+                          <input type="checkbox" class="switcher-input"> <span class="switcher-indicator">
+                            <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
+                            class="switcher-label">General Promotion, Recommendations, News, Updates </span> </label>
                       </div>
                       <div class="form-group">
                         <label class="switcher">
                           <input type="checkbox" class="switcher-input" checked=""> <span class="switcher-indicator">
                             <span class="switcher-yes"></span> <span class="switcher-no"></span> </span> <span
-                            class="switcher-label">Weekly blog digest</span> </label>
+                            class="switcher-label">Remember Emails and Review Reminders</span> </label>
                       </div>
                     </div>
                   </div>
