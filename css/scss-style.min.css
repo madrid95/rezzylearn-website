@@ -287,6 +287,10 @@ a:hover {
 	background-repeat: no-repeat
 }
 
+.tags {
+	margin-right: 5px;
+}
+
 .border-default {
 	border-color: #ececec !important
 }
@@ -803,6 +807,43 @@ a.post-title:hover {
 	font-size: 35px;
 	line-height: 1;
 	margin-bottom: 24px;
+}
+
+.check-icon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	font-size: 20px;
+	line-height: 1;
+	margin-right: 5px;
+	color: #000
+}
+
+.rating-btn {
+	border-radius: 10px;
+	height: 30px;
+	padding: 6px;
+	margin-right: 10px;
+}
+
+.best-seller {
+	background-color: red;
+	color: white;
+	font-size: 15px;
+}
+
+.best-seller:hover {
+	color: white;
+}
+
+.ratting-icon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	font-size: 20px;
+	line-height: 1;
+	margin-right: 5px;
+	color: #fcba03;
 }
 
 .pricing-plan-basic .pricing-plan-icon {
