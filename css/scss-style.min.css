@@ -818,6 +818,10 @@ a.post-title:hover {
 	color: #4699F7;
 }
 
+.list-group-item.active {
+	background-color: #4699F7;
+}
+
 .check-icon {
 	display: inline-block;
 	width: 15px;
