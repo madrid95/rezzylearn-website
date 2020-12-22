@@ -875,6 +875,11 @@ a.post-title:hover {
 	color: #F62459;
 }
 
+.liked {
+	color: #F62459;
+}
+
+
 .pricing-plan-features {
 	list-style: none;
 	padding-left: 0;
