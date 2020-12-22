@@ -20,7 +20,7 @@
 
 .main-timeline .timeline-count {
     color: #fff;
-    background: linear-gradient(to right bottom, #0D60A6, #0983D9);
+    background: linear-gradient(to right bottom, #4699F7, #4699F7);
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -28,7 +28,7 @@
     height: 70px;
     width: 70px;
     border: 10px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     position: absolute;
     left: -25px;
