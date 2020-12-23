@@ -30,50 +30,12 @@
 
     <link rel="stylesheet" href="css/lessons-card.css">
     <link href="css/scss-style.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/rating-icons.css">
     <meta property="og:title" content="RezzyLearn">
     <meta property="og:description" content="This is meta description">
     <meta property="og:type" content="website">
     <meta property="og:updated_time" content="2020-04-18T10:07:21+06:00">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-
-    <style>
-        .rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center
-}
-
-.rating>input {
-    display: none
-}
-
-.rating>label {
-    position: relative;
-    width: 1em;
-    font-size: 3vw;
-    color: #FFD600;
-    cursor: pointer
-}
-
-.rating>label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0
-}
-
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-    opacity: 1 !important
-}
-
-.rating>input:checked~label:before {
-    opacity: 1
-}
-
-.rating:hover>input:checked~label:before {
-    opacity: 0.4
-}
-    </style>
 </head>
 
 <body>
@@ -141,13 +103,14 @@
                                 </p>
 
                             </div>
-                            <div class="mt-5 mb-4">
+                            <div class=" mb-4 my-5">
                                 <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label
                                     for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label
                                     for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label
                                     for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label
                                     for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label
                                     for="1">☆</label>
+                                </div>
                             </div>
 
                             <div>
@@ -159,7 +122,7 @@
 
                             </div>
 
-                            </div>
+                            
 
                             <button type="submit" value="send" class="btn social-connection-btn instagram">Send Now</button>
                         </div>
