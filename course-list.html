@@ -34,7 +34,7 @@
   <meta property="og:updated_time" content="2020-04-18T10:07:21+06:00">
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
 
-  
+
 </head>
 
 <body>
@@ -82,69 +82,70 @@
     </div>
   </header>
 
-
   <section class="section">
     <div class="container">
-      <div class="row col-lg-12 col-md-12 col-sm-12">
-        <div class=" col-md-2 col-sm-12">
-          <div class="btn-group mb-2 border rounded-pill p-2">
-            <button type="button" class="pricing-plan-purchase-btn instagram dropdown-toggle" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Category
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Language</a>
-              <a class="dropdown-item" href="#">Math</a>
-              <a class="dropdown-item" href="#">Physics</a>
-              <a class="dropdown-item" href="#">Software Engineering</a>
-              <a class="dropdown-item" href="#">Chemistry</a>
-              <a class="dropdown-item" href="#">Biology</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+      <form>
+        <div class="form-row justify-content-center">
+          <div class="form-group col-lg-6 col-md-12 col-sm-12">
+            <h6 for="inputState">Course</h6>
+            <input type="text" class="form-control input-form-border rounded-pill" id="inputCity">
+          </div>
+          <div class="form-group col-lg-2 col-md-12 col-sm-12">
+            <h6 for="inputState">Category</h6>
+            <select id="inputState" class="form-control input-form-border rounded-pill">
+              <option selected >All</option>
+              <option>Language</option>
+              <option>Math</option>
+              <option>Physics</option>
+              <option>Chemistry</option>
+              <option>Software Engineering</option>
+              <option>Programming</option>
+            </select>
+          </div>
+          <div class="form-group col-lg-2 col-md-12 col-sm-12">
+            <h6 for="inputState">Grade</h6>
+            <select id="inputState" class="form-control input-form-border rounded-pill">
+              <option selected >All</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+          </div>
+          
+        </div>
+        
+        <div class="container justify-content-center col-md-10">
+          <div class="row float-right ">
+            <button type="submit" class="btn social-connection-btn facebook">Search</button>
           </div>
         </div>
-
-        <div class=" col-md-2 col-sm-12">
-          <div class="btn-group mb-2 border rounded-pill p-2">
-            <button type="button" class="pricing-plan-purchase-btn instagram dropdown-toggle" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Grade
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Easy</a>
-              <a class="dropdown-item" href="#">Medium</a>
-              <a class="dropdown-item" href="#">Hard</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class=" col-md-8 col-sm-12">
-          <div class="input-group mb-2 border rounded-pill p-2">
-            <input type="text" class="form-control border-0" aria-label="Amount (to the nearest dollar)">
-            <a href="course-list.html">
-              <div class="input-group-append bg-white">
-                <span class="input-group-text bg-white border-0"><i class="fa fa-search search-icon"></i></span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-      </div>
+      </form>
     </div>
   </section>
 
-  <div class="container pricing-container">
+  <div class="container">
+    <hr class="border-dark m-0">
+  </div>
+
+
+  <div class="section container pricing-container">
+    
     <div class="row">
 
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English A2</p>
             <p class="pricing-plan-features">
@@ -161,7 +162,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
             <p class="pricing-plan-title">Spanish B1</p>
 
             <p class="pricing-plan-features">
@@ -179,7 +180,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English 2</p>
             <p class="pricing-plan-features">
@@ -196,7 +197,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">Math 2</p>
 
             <p class="pricing-plan-features">
@@ -213,7 +214,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 1</p>
 
             <p class="pricing-plan-features">
@@ -230,7 +231,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 2</p>
 
             <p class="pricing-plan-features">
@@ -249,7 +250,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English A2</p>
             <p class="pricing-plan-features">
@@ -266,7 +267,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
             <p class="pricing-plan-title">Spanish B1</p>
 
             <p class="pricing-plan-features">
@@ -284,7 +285,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English 2</p>
             <p class="pricing-plan-features">
@@ -301,7 +302,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">Math 2</p>
 
             <p class="pricing-plan-features">
@@ -318,7 +319,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 1</p>
 
             <p class="pricing-plan-features">
@@ -335,7 +336,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 2</p>
 
             <p class="pricing-plan-features">
@@ -353,7 +354,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English A2</p>
             <p class="pricing-plan-features">
@@ -370,7 +371,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
             <p class="pricing-plan-title">Spanish B1</p>
 
             <p class="pricing-plan-features">
@@ -388,7 +389,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English 2</p>
             <p class="pricing-plan-features">
@@ -405,7 +406,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">Math 2</p>
 
             <p class="pricing-plan-features">
@@ -422,7 +423,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 1</p>
 
             <p class="pricing-plan-features">
@@ -439,7 +440,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 2</p>
 
             <p class="pricing-plan-features">
@@ -457,7 +458,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English A2</p>
             <p class="pricing-plan-features">
@@ -474,7 +475,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart card-like-icon"></i></div>
             <p class="pricing-plan-title">Spanish B1</p>
 
             <p class="pricing-plan-features">
@@ -492,7 +493,7 @@
         <div class="card pricing-card  pricing-plan-enterprise">
 
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
 
             <p class="pricing-plan-title">English 2</p>
             <p class="pricing-plan-features">
@@ -509,7 +510,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">Math 2</p>
 
             <p class="pricing-plan-features">
@@ -526,7 +527,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 1</p>
 
             <p class="pricing-plan-features">
@@ -543,7 +544,7 @@
       <div class="col-md-6 col-lg-3 col-sm-6">
         <div class="card pricing-card pricing-plan-enterprise">
           <div class="card-body">
-            <div class="text-right"> <i class="mdi mdi-heart-outline card-like-icon"></i></div>
+            <div class="text-right"> <i onclick="toggleLikeButton(this);" class="mdi mdi-heart-outline card-like-icon"></i></div>
             <p class="pricing-plan-title">SE 2</p>
 
             <p class="pricing-plan-features">
@@ -556,16 +557,10 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-
-      </section>
-
-
-
-
-      <script src="js/jQuery-jquery.min.js"></script>
-      <script src="js/bootstrap-bootstrap.min.js"></script>
-      <script src="js/slick-slick.min.js"></script>
+  </section>
 </body>
 
 
@@ -627,12 +622,13 @@
       <small class="content">Design and Develop by <a href="https://rezzytech.com/">RezzyTech</a></small>
     </div>
   </div>
-</footer><!-- JS Plugins -->
+</footer>
+<!-- JS Plugins -->
 <script src="js/jQuery-jquery.min.js"></script>
 <script src="js/bootstrap-bootstrap.min.js"></script>
 <script src="js/slick-slick.min.js"></script><!-- Main Script -->
 <script src="js/js-script.min.js"></script>
-
+<script src="js/button-function.js"></script>
 </body>
 
 </html>

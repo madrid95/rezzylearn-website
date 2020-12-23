@@ -200,7 +200,7 @@ body {
 }
 
 ::selection {
-	background-color: #077877;
+	background-color: #4699F7;
 	color: #fff
 }
 
@@ -877,6 +877,10 @@ a.post-title:hover {
 
 .liked {
 	color: #F62459;
+}
+
+.input-form-border {
+	border-color: #4699F7;
 }
 
 
